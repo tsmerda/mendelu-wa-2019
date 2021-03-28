@@ -1,0 +1,8 @@
+[2019-04-24 11:34:02] slim-app.ERROR: SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "users_email" DETAIL:  Key (email)=(ttt@pisarovic.cz) already exists. [] {"uid":"1611fea"}
+[2019-04-24 11:36:15] slim-app.ERROR: SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "users_email" DETAIL:  Key (email)=(ttt@pisarovic.cz) already exists. [] {"uid":"44fd7ed"}
+[2019-05-02 13:34:45] slim-app.ERROR: SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "users_login" DETAIL:  Key (login)=(ahoj) already exists. [] {"uid":"95ddcfb"}
+[2019-05-02 13:35:05] slim-app.ERROR: SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "users_login" DETAIL:  Key (login)=(ahoj) already exists. [] {"uid":"9c20421"}
+[2019-05-02 13:35:27] slim-app.ERROR: SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "users_login" DETAIL:  Key (login)=(ahoj2) already exists. [] {"uid":"ae5b14e"}
+[2019-05-02 13:35:46] slim-app.ERROR: SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "users_login" DETAIL:  Key (login)=(ahoj) already exists. [] {"uid":"7cafd20"}
+[2019-05-15 10:10:14] slim-app.ERROR: SQLSTATE[08P01]: <<Unknown error>>: 7 ERROR:  bind message supplies 0 parameters, but prepared statement "pdo_stmt_00000001" requires 1 [] {"uid":"35c1a30"}
+[2019-05-15 10:12:31] slim-app.ERROR: SQLSTATE[08P01]: <<Unknown error>>: 7 ERROR:  bind message supplies 0 parameters, but prepared statement "pdo_stmt_00000001" requires 1 [] {"uid":"92f0e9b"}
